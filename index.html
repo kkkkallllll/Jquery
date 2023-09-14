@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como usa o jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div><h1>Lista de nomes</h1></div>
+    <div>
+        <ul style="font-size: 35px">
+            <li class="a">Maria</li>
+            <li class="b">Maria</li>
+            <li class="c">Marcos</li>
+            <li class="d">Aline</li>
+            <li class="e">Adriana</li>
+        </ul>
+    </div>
+    <div>
+        <button id="btn">click aqui</button>
+    </div>
+    <script>
+    $('#btn').on("click",botao())
+    function botao() {
+        $('.a').css({'color':'blue'})
+        $('#btn').on("click",botao)
+    $('#btn').on("click",botao)
+    function botao() {
+        $('.b').css({'color':'orange'})
+        $('#btn').on("click",botao)
+
+    $('#btn').on("click",botao)
+    function botao() {
+        $('.c').css({'color':'yellow'})
+        $('#btn').on("click",botao)
+
+    $('#btn').on("click",botao)
+    function botao() {
+        $('.d').css({'color':'green'})
+        $('#btn').on("click",botao)
+    
+    $('#btn').on("click",botao)
+    function botao() {
+        $('.e').css({'color':'blue'})
+        $('#btn').on("click",botao)
+    }
+}
+    }
+}
+    }
+    </script>
+    
+</body>
+</html>
